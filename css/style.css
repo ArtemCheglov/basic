@@ -1,4 +1,16 @@
+:root{
+    --akcent-color:#2196F3;
+    --basec-color:#212121;
+    --content-color:#757575;
+}
+
 body{
     /* font-family: 'Raleway', sans-serif; */
 font-family: 'Roboto', sans-serif;
 }
+displey: flex;
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  }
