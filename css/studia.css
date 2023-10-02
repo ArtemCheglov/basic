@@ -1,0 +1,255 @@
+:root {
+    --accent-color: #2196f3;
+    --blak-color: #000;
+    --basic-color: #757575;
+    --minor-color: #212121;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0px;
+}
+
+address {
+    font-style: normal;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Хедер */
+
+.header {
+    display: flex;
+}
+
+.header>.container {
+    display: flex;
+}
+
+.logo {
+    color: var(--accent-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    margin-right: 94px;
+    padding-top: 25px;
+    padding-bottom: 24px;
+}
+
+.logo-sryle {
+    color: #000;
+}
+
+.menu-list {
+    display: flex;
+    padding-left: 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu-link {
+    color: var(--minor-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.header-addres {
+    margin-left: 344px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-cont:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-cont {
+    color: var(--basic-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+
+/* hero */
+
+.hero {
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+}
+
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+
+/* portfolio */
+
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio-btn-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+}
+
+.portfolio-btn {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    border: none;
+    padding: 6px 22px;
+}
+
+.portfolio-title {
+    color: #212121;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 200% */
+    letter-spacing: 1.08px;
+    margin-top: 20px;
+}
+
+.portfolio-text {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.48px;
+}
+
+
+/* footer */
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    color: var(--accent-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-logo-style {
+    color: #fff;
+}
+
+.footer-list {
+    padding-left: 0px;
+}
+
+.address {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    display: block;
+    margin-bottom: 9px;
+}
+
+.footer-cnt {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    display: block;
+}
+
+.footer-cnt:not(:last-child) {
+    margin-bottom: 9px;
+    display: block;
+}
