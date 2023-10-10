@@ -253,3 +253,70 @@ address {
     margin-bottom: 9px;
     display: block;
 }
+
+.advantages-list {
+    display: flex;
+}
+
+.advantages-title {
+    margin-bottom: 10px;
+}
+
+.our-work-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-work-title {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 30px;
+}
+
+.team {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-title {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 10px;
+}
+
+.team-list {
+    display: flex;
+}
+
+.team-name {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 10px;
+}
+
+.team-text {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 30px;
+}
