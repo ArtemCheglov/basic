@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 
@@ -27,6 +27,7 @@ h6,
 ul,
 p {
     margin: 0px;
+    padding: 0px;
 }
 
 address {
@@ -65,7 +66,7 @@ address {
 
 .logo {
     color: var(--accent-color);
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -101,7 +102,7 @@ address {
 }
 
 .header-addres {
-    margin-left: 344px;
+    margin-left: 330px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -123,13 +124,13 @@ address {
 /* hero */
 
 .hero {
-    background-color: #2F303A;
+    background-color: #2f303a;
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
 .hero-btn {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -137,10 +138,17 @@ address {
     line-height: 30px;
     /* 187.5% */
     letter-spacing: 0.96px;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 32px;
 }
 
 .hero-title {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 44px;
     font-style: normal;
@@ -149,6 +157,9 @@ address {
     /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-bottom: 30px;
+    width: 696px;
+    margin: 0px auto;
 }
 
 
@@ -166,6 +177,13 @@ address {
     gap: 8px;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
+}
+
 .portfolio-btn {
     color: #212121;
     text-align: center;
@@ -176,7 +194,7 @@ address {
     /* 162.5% */
     letter-spacing: 0.48px;
     border-radius: 4px;
-    background: #F5F4FA;
+    background: #f5f4fa;
     border: none;
     padding: 6px 22px;
 }
@@ -208,12 +226,12 @@ address {
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #2F303A;
+    background-color: #2f303a;
 }
 
 .footer-logo {
     color: var(--accent-color);
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
@@ -231,7 +249,7 @@ address {
 }
 
 .address {
-    color: #FFF;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -241,7 +259,7 @@ address {
 }
 
 .footer-cnt {
-    color: rgba(255, 255, 255, 0.60);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -254,8 +272,15 @@ address {
     display: block;
 }
 
+.advantages {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
 .advantages-list {
     display: flex;
+    justify-content: center;
+    padding-left: 0px;
 }
 
 .advantages-title {
@@ -279,7 +304,7 @@ address {
 }
 
 .team {
-    background-color: #F5F4FA;
+    background-color: #f5f4fa;
     padding-top: 94px;
     padding-bottom: 94px;
 }
