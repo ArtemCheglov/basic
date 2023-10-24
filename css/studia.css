@@ -10,6 +10,12 @@ body {
     font-style: normal;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -177,11 +183,15 @@ address {
     gap: 8px;
 }
 
-.portfolio-list {
+.prijelt-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
     justify-content: center;
-    padding-left: 0px;
+}
+
+.prijelt-list>.item {
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-btn {
@@ -279,8 +289,12 @@ address {
 
 .advantages-list {
     display: flex;
-    justify-content: center;
-    padding-left: 0px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.advantages-list>.item {
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .advantages-title {
@@ -289,7 +303,12 @@ address {
 
 .our-work-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.our-work-list>.item {
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .our-work-title {
@@ -322,6 +341,12 @@ address {
 
 .team-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.team-list>.item {
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .team-name {
@@ -333,6 +358,7 @@ address {
     line-height: normal;
     letter-spacing: 0.48px;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .team-text {
