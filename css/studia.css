@@ -377,6 +377,11 @@ address {
     margin-bottom: 50px;
 }
 
+.customers-list {
+    display: flex;
+    gap: 30px;
+}
+
 .customers-list>.item {
     width: 170px;
     height: 92px;
